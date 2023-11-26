@@ -1,0 +1,280 @@
+
+body {
+	font-family:'General Sans', sans-serif;
+	color:#686781;
+	font-size:16px;
+	line-height:1.75em;
+}
+
+h1 {
+	margin-top:0px;
+	margin-bottom:24px;
+	color:#171728;
+	font-size:46px;
+	line-height:1.348em;
+	font-weight:500;
+}
+
+h2 {
+	margin-top:0px;
+	margin-bottom:16px;
+	color:#171728;
+	font-size:32px;
+	line-height:1.438em;
+	font-weight:500;
+	margin-left: 10px;
+}
+
+img {
+	display:inline-block;
+	max-width:100%;
+}
+
+.button-primary {
+	border-radius:1000px;
+	background-color:#0061ff;
+	transition:transform 300ms ease, background-color 300ms ease;
+	color:#fff;
+	line-height:1.125em;
+	font-weight:600;
+	text-align:center;
+	transform-style:preserve-3d;
+}
+
+.button-primary:hover {
+	background-color:#034fcb;
+	transform:translate3d(0px, -2px, 0.01px);
+	color:#fff;
+}
+
+.card {
+	overflow:hidden;
+	border-style:solid;
+	border-width:1px;
+	border-color:#e4e4ed;
+	border-radius:20px;
+	background-color:#fff;
+	box-shadow:0 7px 14px 0 rgba(8, 15, 52, 0.03);
+	transform:translate(0px, 0px);
+}
+
+.card.job {
+	display:flex;
+	padding:21px 18px 25px;
+	justify-content:space-between;
+	align-items:center;
+	border-radius:12px;
+	transition:transform 300ms ease, border-color 300ms ease;
+	color:#686781;
+	text-decoration:none;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+
+.card.job:hover {
+	border-color:#0061ff;
+	transform:translate(0px, -4px);
+	color:#686781;
+}
+
+.card.job.featured {
+	border-color:#ffde6a;
+	background-color:#fffefa;
+	color:#686781;
+	text-decoration:none;
+}
+
+.card.job.featured:hover {
+	color:#686781;
+	border-color:#0061ff;
+}
+
+.title.featured-jobs {
+	margin-bottom:24px;
+}
+
+.title.h6-size {
+	color:#171728;
+	font-size:16px;
+	line-height:1.5em;
+	font-weight:500;
+}
+
+.title.h6-size.card-job-featured {
+	margin-bottom:6px;
+}
+
+.split-content.job-board-content {
+	width:100%;
+	max-width:849px;
+	margin-right:30px;
+}
+
+.split-content.card-job-left {
+	display:flex;
+	min-width:217px;
+	margin-right:30px;
+	align-items:center;
+}
+
+.split-content.card-job-right {
+	display:flex;
+	width:100%;
+	max-width:387px;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.image-container {
+	display:flex;
+	overflow:hidden;
+	align-items:center;
+	transform:translate(0px, 0px);
+}
+
+.image-container.card-job {
+	max-width:58px;
+	margin-right:22px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#e4e4ed;
+	border-radius:8px;
+}
+
+.job-board-container {
+	display:flex;
+	background-color: #fffefa;
+	flex-wrap: wrap;
+}
+
+.featured-jobs-container
+{
+	margin-bottom:66px;
+}
+
+.featured-jobs-grid {
+	display:grid;
+	grid-auto-columns:1fr;
+	grid-row-gap:18px;
+	grid-template-columns:1fr;
+	grid-template-rows:auto;
+}
+
+.card-link-container {
+	display:flex;
+	align-items:flex-start;
+}
+
+.card-link {
+	margin-right:6px;
+	color:#0061ff;
+	line-height:1.143em;
+	text-decoration:underline;
+}
+
+.card-link.featured {
+	color:#33334e;
+	border-radius:20px;
+}
+
+.card-link-arrow {
+	position:relative;
+	top:5px;
+	display:flex;
+	max-width:10px;
+	min-height:10px;
+	min-width:10px;
+	justify-content:center;
+	align-items:center;
+	flex:0 auto;
+}
+
+.card-link-arrow-1 {
+	position:absolute;
+	bottom:4px;
+	width:11px;
+	height:1px;
+	background-color:#0061ff;
+	transform:rotate(-45deg);
+}
+
+.card-link-arrow-1.featured {
+	background-color:#33334e;
+}
+
+.card-link-arrow-2 {
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:8px;
+	min-height:1px;
+	background-color:#0061ff;
+}
+
+.card-link-arrow-2.featured {
+	background-color:#33334e;
+}
+
+.card-link-arrow-3 {
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:1px;
+	min-height:8px;
+	min-width:1px;
+	background-color:#0061ff;
+}
+
+.card-link-arrow-3.featured {
+	background-color:#33334e;
+}
+
+.card-job-category-title-container {
+	display:flex;
+	margin-bottom:14px;
+	align-items:center;
+	font-size:14px;
+	line-height:1.143em;
+}
+
+.card-job-category-text {
+	color:#171728;
+	line-height:1.25em;
+	font-weight:500;
+}
+
+.card-job-category-title-icon {
+	max-width:14px;
+	margin-right:5px;
+}
+
+/* .right {
+	width: 500px;
+} */
+
+/*! Used fontfaces */
+@font-face {
+	font-family:'General Sans';
+	src:url('../../public/fonts/otf/GeneralSans-Medium.otf') format('opentype');
+	font-weight:500;
+	font-style:normal;
+	font-display:swap;
+}
+
+@font-face {
+	font-family:'General Sans';
+	src:url('../../public/fonts/otf/GeneralSans-Regular.otf') format('opentype');
+	font-weight:400;
+	font-style:normal;
+	font-display:swap;
+}
+
+@font-face {
+	font-family:'General Sans';
+	src:url('../../public/fonts/otf/GeneralSans-Semibold.otf') format('opentype');
+	font-weight:600;
+	font-style:normal;
+	font-display:swap;
+}
+
+

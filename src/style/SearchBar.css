@@ -1,0 +1,38 @@
+.search-bar {
+    background-image: url('../../public//img/searchIcon.svg');
+    background-position: 10px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-left: auto;
+    max-width: 400px; /* Ajustez la largeur comme souhaité */
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+  
+  .search-bar input {
+    margin-left: 50px;
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 25px; /* Coins arrondis à gauche */
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 25px; /* Coins arrondis à droite */
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0; /* Réinitialise les marges */
+    margin-right: 10px; /* Ajoute de l'espace à droite du bouton */
+    display: flex;
+    align-items: center;
+  }
+  

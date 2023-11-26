@@ -1,0 +1,6 @@
+const connection = mysql.createConnection({
+  host: '127.0.0.1',
+  user: 'xiam',
+  password: 'xiam',
+  database: 'BDD'
+});

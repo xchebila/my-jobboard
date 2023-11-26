@@ -1,0 +1,79 @@
+.center-div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    padding-bottom: 200px;
+  }
+  
+  .registration-container {
+    background-color: #fffefa;
+    border:1px solid #ffde6a;
+    border-radius: 12px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .form-registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="phone"],
+  input[type="password"] {
+    height: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .password-input {
+    position: relative;
+  }
+  
+  .password-input input {
+    width: 287.46px;
+    padding-right: 30px; /* Pour laisser de l'espace à l'icône à droite */
+  }
+  
+  .password-toggle {
+    position: absolute;
+    top: 50%; /* Pour le centrer verticalement */
+    right: 10px; /* Ajustez la position horizontale selon vos besoins */
+    transform: translateY(-50%); /* Pour le centrer verticalement */
+    cursor: pointer; /* Ajoute un curseur pointer pour indiquer que c'est cliquable */
+  }
+  
+  

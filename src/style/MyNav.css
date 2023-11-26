@@ -1,0 +1,129 @@
+
+.navbar {
+  background-color: #fffefa;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px;
+  color: #333;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  color: #64B5F6;
+}
+
+.logo-jobboard {
+  height: auto;
+  width: 80px;
+}
+
+.div-logo {
+  display: flex;
+  align-items: center; 
+}
+
+.div-logo a {
+  text-decoration: none;
+}
+
+.div-logo a:hover {
+  color: #64B5F6;
+}
+
+.div-logo:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s; 
+  color: #64B5F6;
+}
+
+.logo-link {
+  display: inline-flex; 
+  align-items: center; 
+  text-decoration: none; 
+  color: #333;
+}
+
+.account {
+  display: flex;
+  align-items: center; 
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block; /* Nécessaire pour positionner le menu correctement */
+}
+
+/* Dropdown button (Profil) */
+.dropdown-button {
+  text-decoration: none; /* Retirer le soulignement du lien */
+  color: #333;
+  font-size: 18px;
+  cursor: pointer; /* Changer le curseur pour indiquer que c'est cliquable */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fffefa; /* Couleur de fond identique à votre barre de navigation */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0; /* Pour aligner le menu à droite */
+}
+
+/* Links inside the dropdown */
+.dropdown-content li {
+  display: block;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer; /* Curseur indiquant que c'est cliquable */
+  font-size: 16px;
+}
+
+/* Hover effect for dropdown button (Profil) */
+.dropdown-button:hover {
+  color: #64B5F6;
+}
+
+/* Hover effect for dropdown links */
+.dropdown-content li:hover {
+  background-color: #64B5F6; /* Couleur de survol identique à votre barre de navigation */
+  color: #fff;
+}
+
+/* Show the dropdown menu when hovering over the dropdown container */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown li {
+  width: 75%
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajustez la hauteur si nécessaire */
+}

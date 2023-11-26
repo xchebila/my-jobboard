@@ -1,0 +1,32 @@
+/* Footer.css */
+
+.footer {
+  background-color: #fffefa;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.9;
+  margin-top: 20px;
+}
+  
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    color: #686781;
+  }
+  
+  .footer-text a {
+    color: #686781;
+    text-decoration: none;
+  }
+  
