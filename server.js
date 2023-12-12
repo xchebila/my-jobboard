@@ -14,7 +14,7 @@ const app = express();
 const PORT = 5500;
 
 const connection = mysql.createConnection({
-  host: '127.0.0.1',
+  host: '//host',
   user: '//user',
   password: '//password',
   database: '//db'
