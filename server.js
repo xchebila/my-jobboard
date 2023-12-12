@@ -15,9 +15,9 @@ const PORT = 5500;
 
 const connection = mysql.createConnection({
   host: '127.0.0.1',
-  user: 'xiam',
-  password: 'xiam',
-  database: 'BDD'
+  user: '//user',
+  password: '//password',
+  database: '//db'
 });
 
 const storage = multer.diskStorage({
